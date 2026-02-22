@@ -1,0 +1,40 @@
+{
+  "placeholderImages": [
+    {
+      "id": "beef-skewer",
+      "description": "Espetinho de Carne",
+      "imageUrl": "https://images.unsplash.com/photo-1626323107982-177d43e5f634?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxncmlsbGVkJTIwbWVhdCUyMHNrZXdlcnxlbnwwfHx8fDE3NzE3MzgyNTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "grilled meat skewer"
+    },
+    {
+      "id": "chicken-skewer",
+      "description": "Espetinho de Frango",
+      "imageUrl": "https://images.unsplash.com/photo-1708597525178-6c302364f37c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmlsbGVkJ2hpY2tlbiUyMHNrZXdlcnxlbnwwfHx8fDE3NzE3MzgyNTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "grilled chicken skewer"
+    },
+    {
+      "id": "cheese-skewer",
+      "description": "Queijo Coalho",
+      "imageUrl": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlc3BldGluaG98ZW58MHx8fHwxNzcxNzQ0Mjg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "grilled coalho cheese"
+    },
+    {
+      "id": "drink-soda",
+      "description": "Bebidas",
+      "imageUrl": "https://images.unsplash.com/photo-1596793453564-31e6c88d67b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzb2RhJTIwY2FuJTIwZHJpbmt8ZW58MHx8fHwxNzcxNzM4MjUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "soda can drink"
+    },
+    {
+      "id": "combo-pack",
+      "description": "Refeições e Combos",
+      "imageUrl": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxiYmclMjBwbGF0dGVyfGVufDB8fHx8MTc3MTczODI1M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bbq platter"
+    },
+    {
+      "id": "bread-garlic",
+      "description": "Pão de Alho",
+      "imageUrl": "https://images.unsplash.com/photo-1742162813932-619d0e917270?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxnYXJsaWMlMjBicmVhZCUyMGdyaWxsfGVufDB8fHx8MTc3MTczODc3OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "garlic bread grill"
+    }
+  ]
+}

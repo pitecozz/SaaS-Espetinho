@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 48 100% 97%; /* #FAF9F0 */
+    --foreground: 20 20% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 20 20% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 20% 10%;
+    --primary: 45 100% 51%; /* #FFC107 */
+    --primary-foreground: 45 10% 10%;
+    --secondary: 33 100% 50%; /* #FF9800 */
+    --secondary-foreground: 0 0% 100%;
+    --muted: 48 20% 90%;
+    --muted-foreground: 20 10% 40%;
+    --accent: 33 100% 50%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 45 20% 85%;
+    --input: 45 20% 85%;
+    --ring: 45 100% 51%;
+    --radius: 1rem;
+    --chart-1: 142 76% 36%; /* Green for profit */
+    --chart-2: 0 84% 60%; /* Red for expenses */
+    --chart-3: 33 100% 50%; /* Orange */
+    --chart-4: 45 100% 51%; /* Yellow */
+    --chart-5: 200 80% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body;
+    -webkit-tap-highlight-color: transparent;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline;
+  }
+}
+
+/* One-handed use optimizations */
+@layer utilities {
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  .thumb-zone {
+    @apply flex items-center justify-center p-4;
+  }
+}
